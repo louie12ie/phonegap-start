@@ -10,10 +10,6 @@
 		App for the best of Irish music scene today
 	</description>
 
-	<author href="http://alunny.github.com"
-		email="andrew.lunny@nitobi.com">
-		Andrew Lunny
-	</author>
 
 	<icon src="streetceol_logo.png" gap:role="default" />
 
