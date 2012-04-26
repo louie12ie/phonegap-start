@@ -23,41 +23,954 @@
 		
 	</head>
 	<body>
- 		<div id="title_bar">Phone<strong>Gap</strong> Training App</div>
+ 		<div data-role="page" data-theme="f" id="homepage">
+        
+            <div data-theme="f" data-role="header"> <!--header-->
+             <center><img style="width: 450px; height: 80px; padding: 5px" src="images/streetceol_logo.png" /></center>
+                
+                </div>
+                
+    
+                <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                
+                    <li data-theme="c">
+                        <a href="#about" data-transition="slide">
+                           <img style="width: 100px; height: 100px" src="images/tumblr_lbyqej5oYe1qbhnego1_500.jpg" /> 
+                           <h1>About StreetCeolTV</h1>
+                        </a>
+                    </li>
+                    
+                    <li data-theme="c">
+                        <a href="#artist" data-transition="slide">
+                           <img style="width: 100px; height: 100px" src="images/drunk-irish.jpg" />
+                           <h1>Irish Talents</h1>
+                        </a>
+                    </li> 
+                    <li data-theme="c">
+                        <a href="#videos" data-transition="slide">
+                        <img style="width: 100px; height: 100px" src="images/video.png" />                       
+                           <h1>Recorded Videos</h1>
+                         </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#contact" data-transition="slide">
+                        <img style="width: 100px; height: 100px" src="images/1616945_f520.jpg" />
+                          <h1>How to be Famous</h1>
+                        </a>
+                    </li>
+                </ul>
+</div>
+                            
+                            
 
-		<div id="welcome" class="view">
-		  <div class="app_button" id="map_button">Show My Location</div>
-  	      <div class="app_button" id="settings_button">Settings</div>
-		</div>
+       
+       <div data-role="page" id="artist" data-theme="f"> <!--Artist Page -->
+        
 
-		<div id="map" class="view">
-		  <div class="map_image">
-              <img id="static_map" src="assets/img/staticmap.png">
-		  </div>
-		  <p>This is where you are</p>
-		  <div class="app_button" id="welcome_button">Go Back</div>
-		</div>
+        <div data-theme="f" data-role="header">
+            <a href="#homepage" data-role="button" data-transition="slide" data-direction="reverse" data-icon="back" data-theme="c" style="margin:20px">Back</a>
+            
+                <center><img style="width: 450px; height: 80px; padding: 5px" src="images/streetceol_logo.png" /></center>
+                
+                </div>
 
-		<div id="settings" class="view">
-		  <form id="settings_form">
-		    <fieldset>
-		      <legend>Map Type</legend>
-			  <input type="radio" name="map" value="roadmap" checked>Road Map<br/>
-		      <input type="radio" name="map" value="satellite">Satellite<br/>
-		      <input type="radio" name="map" value="terrain">Terrain<br/>
-		      <input type="radio" name="map" value="hybrid">Hybrid<br/>
-		    </fieldset>
-		    <fieldset>
-		      <legend>Zoom Level</legend>
-  		      <input type="radio" name="zoom" value="10">Super Far<br/>
-  		      <input type="radio" name="zoom" value="12">Far<br/>
-  		      <input type="radio" name="zoom" value="15" checked>Normal<br/>
-  		      <input type="radio" name="zoom" value="18">Close<br/>
-  		      <input type="radio" name="zoom" value="20">Super Close<br/>
-  		     </fieldset>
-		      <button id="save_button">Save</button>
-	      </form>
-		</div>
+       <ul data-role="listview" data-divider-theme="f" data-inset="true">
+       <li data-theme="c">
+                        <a href="#adam" data-transition="slide">
+                        <img style="width: 100px; height: 100px" src="images/adam.jpg" />
+                        
+                          <h1>Adam Behan</h1>
+                          <p><i>"Lucan based guitarist"</i></p> 
+                        </a>
+                    </li>
+           <li data-theme="c">
+                        <a href="#andy" data-transition="slide">
+                        <img style="width: 100px; height: 100px" src="images/andy.jpg" />
+                        
+                          <h1>Andy Duff</h1>
+                          <p><i>"Dublin based singer/songwriter"</i></p> 
+                        </a>
+                    </li>
+  <li data-theme="c">
+                        <a href="#awol" data-transition="slide">
+                        <img style="width: 100px; height: 100px" src="images/AWOL.jpg" />
+                        
+                          <h1>AWOL</h1>
+                          <p><i>"Dublin/Clondalkin based hip hop group"</i></p> 
+                        </a>
+                    </li>
+  <li data-theme="c">
+                        <a href="#daire" data-transition="slide">
+                        <img style="width: 100px; height: 100px" src="images/daire.jpg" />
+                        
+                          <h1>Daire Graham</h1>
+                          <p><i>"Cellbridge based singer/songwriter"</i></p> 
+                        </a>
+                    </li>
+  <li data-theme="c">
+                        <a href="#illPsyhcz" data-transition="slide">
+                        <img style="width: 100px; height: 100px" src="images/Ill_Psychz.jpg" />
+                        
+                          <h1>ill Psychz</h1>
+                          <p><i>Galway based rapper</i></p> 
+                        </a>
+                    </li>
+  <li data-theme="c">
+                        <a href="#J.G" data-transition="slide">
+                        <img style="width: 100px; height: 100px" src="images/J.G.jpg" />
+                        
+                          <h1>J.G</h1>
+                          <p><i>"Manchester born rapper"</i></p> 
+                        </a>
+                    </li>
+  <li data-theme="c">
+                        <a href="#rob" data-transition="slide">
+                        <img style="width: 100px; height: 100px" src="images/Rob_Steenson.jpg" />
+                        
+                          <h1>Rob Steenson</h1>
+                          <p><i>"Inner Dublin City Rapper"</i></p> 
+                        </a>
+                    </li>
+  <li data-theme="c">
+                        <a href="#thefibbs" data-transition="slide">
+                        <img style="width: 100px; height: 100px" src="images/TheFibbs.jpg" />
+                        
+                          <h1>The Fibbs</h1>
+                          <p><i>"Blues/Funk 5 piece band"</i></p> 
+                        </a>
+                    </li>
+  <li data-theme="c">
+                        <a href="#yellowbridge" data-transition="slide">
+                        <img style="width: 100px; height: 100px" src="images/Yellowbridge.jpg" />
+                        
+                          <h1>Yellowbridge</h1>
+                          <p><i>"Indie/pop duo"</i></p> 
+                        </a>
+                    </li>
+		</ul>
+       
+       </div>
+   
+       <div data-role="page" id="adam" data-theme="f"> <!--Artist Profile Page -->
+        
+
+        <div data-theme="f" data-role="header" style="position:relative" >
+            <a href="#artist" data-role="button" data-transition="slide" data-direction="reverse" data-icon="back" data-theme="c" style="margin:20px">Back</a>
+            
+                <center><img style="width: 450px; height: 80px; padding: 5px" src="images/streetceol_logo.png" /></center>
+                
+                </div>
+
+   
+   <div style="width: 100px; height: 100px; position: relative; border: 1px solid #b8b8b8">
+                    <img src="images/adam.jpg" alt="image" style="position: absolute; width:100px; height:100px; margin-left:20px " />
+                    
+                    
+                    
+                    <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                    <li data-theme="c" style="margin-left:130px; width:150px; height:50px; margin-top:20px">
+                    <center><h1>Adam Behan</h1></center>
+                    </li>
+                    </ul>
+                    
+                </div>
+                <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                </ul>
+                <div data-role="collapsible-set" data-theme="c" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                        	Biography
+                        </h3>
+                         <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+							<h2 style="font-size:medium; font-family:'Arial'">Just a regular guitar player based in Lucan. Just love my music.</h2>                   
+                    	 </li>
+						 </ul>
+                        </div>
+                  
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Links
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+                        
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="https://www.facebook.com/profile.php?id=591835642">Facebook</a></h2>
+							 
+                      
+                    		</li>
+						 </ul>
+                                  
+   				</div>
+   				<div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Video
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true" >
+                         <li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/1TAkaWp78sc?rel=0" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Dublin based guitarist Adam Behan plays his cover of Andy McKees famous piece 
+                         "Drifting". Dont forget to subscribe, like, comment and share to keep up to date with the latest musical talent exclusively on Street Ceol TV.</span> </div>
+                                              
+                    	</li>
+						 </ul>
+                                  
+   				</div>
+
+   
+   
+   </div>
+</div><!-- End of Adam-->
+<div data-role="page" id="andy" data-theme="f"> <!--Andy Duff Profile Page -->
+        
+
+        <div data-theme="f" data-role="header" style="position:relative" >
+            <a href="#artist" data-role="button" data-transition="slide" data-direction="reverse" data-icon="back" data-theme="c" style="margin:20px">Back</a>
+            
+                <center><img style="width: 450px; height: 80px; padding: 5px" src="images/streetceol_logo.png" /></center>
+                
+                </div>
+
+   
+   <div style="width: 100px; height: 100px; position: relative; border: 1px solid #b8b8b8">
+                    <img src="images/andy.jpg" alt="image" style="position: absolute; width:100px; height:100px; margin-left:20px " />
+                    
+                    
+                    
+                    <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                    <li data-theme="c" style="margin-left:130px; width:150px; height:50px; margin-top:20px">
+                    <center><h1>Andy Duff</h1></center>
+                    </li>
+                    </ul>
+                    
+                </div>
+                <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                </ul>
+                <div data-role="collapsible-set" data-theme="c" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                        	Biography
+                        </h3>
+                         <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+							<span style="font-size:medium; font-family:'Arial'">Singer/Songwriter Andy Duff has been doing his thing since the young age of 14.
+							 He developed an interest in singing himself and writing songs at a very young age. Based in Lucan, Andy is now also in a band called "All Jokes Aside" 
+							 but also focusing on his own solo career too.</span>            
+                    	 </li>
+						 </ul>
+                        </div>
+                  
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Links
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+                        
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="http://www.facebook.com/pages/Andy-Duff/116181741797988?ref=ts">Facebook</a></h2>
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="http://www.youtube.com/user/TheActualDuff">YouTube</a></h2>
+						<h2 style="font-size:medium; font-family:'Arial'"><a href="http://www.reverbnation.com/andyduff">Reverbnation</a></h2>
+	 
+                      
+                    		</li>
+						 </ul>
+                                  
+   				</div>
+   				<div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Video
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true" >
+                         <li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/mIS5S61KLnw" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Lucan based singer/songwriter Andy Duff singing his own original song titled "How Long". Dont forget to like, 
+                         comment, subscribe and share at <a href="http://www.youtube.com/user/StreetCeolTV">Street Ceol TV Youtube Page</a></span> </div>
+                                              
+                    	</li>
+						 </ul>
+                                  
+   				</div>
+
+   
+   
+   </div>
+</div>
+
+
+
+<div data-role="page" id="awol" data-theme="f"> <!--AWOL Profile Page -->
+        
+
+        <div data-theme="f" data-role="header" style="position:relative" >
+            <a href="#artist" data-role="button" data-transition="slide" data-direction="reverse" data-icon="back" data-theme="c" style="margin:20px">Back</a>
+            
+                <center><img style="width: 450px; height: 80px; padding: 5px" src="images/streetceol_logo.png" /></center>
+                
+                </div>
+
+   
+   <div style="width: 100px; height: 100px; position: relative; border: 1px solid #b8b8b8">
+                    <img src="images/AWOL.jpg" alt="image" style="position: absolute; width:100px; height:100px; margin-left:20px " />
+                    
+                    
+                    
+                    <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                    <li data-theme="c" style="margin-left:130px; width:150px; height:50px; margin-top:20px">
+                    <center><h1>A.W.O.L</h1></center>
+                    </li>
+                    </ul>
+                    
+                </div>
+                <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                </ul>
+                <div data-role="collapsible-set" data-theme="c" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                        	Biography
+                        </h3>
+                         <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+							<span style="font-size:medium; font-family:'Arial'">Were just average lads that rap, We've been at it a while now, we must be getting decent at it by this stage!!
+							Ha no we are doing alright, winning the mic check with Dave Treacy on RTE pulse, bit of luck we will be announced as winners by Warren G!!!! 
+							Album should be out in the next few months but until then we'll be putting up some promos so let us know if you like it and even if you dont let us know were shit!!
+							Cheers. Oh and for the record, say we're crap then your going to have to back your yap up, that's life, consequences hahaha</span>            
+                    	 </li>
+						 </ul>
+                        </div>
+                  
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Links
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+                        
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="http://www.facebook.com/AWOLIreland">Facebook</a></h2>
+                        	 
+                      
+                    		</li>
+						 </ul>
+                                  
+   				</div>
+   				<div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Video
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true" >
+                         <li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/aE0IIZ3I8JU" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Clondalkin based hip hop group A.W.O.L (Rapthor and Row-B) performing their original song "New Age Funk". Dont forget to like, 
+                         comment, subscribe and share at <a href="http://www.youtube.com/user/StreetCeolTV">Street Ceol TV Youtube Page</a></span> </div>
+                                              
+                    	</li>
+						 </ul>
+                                  
+   				</div>
+
+   
+   
+   </div>
+</div>
+
+
+<div data-role="page" id="daire" data-theme="f"> <!--Daire Graham Profile Page -->
+        
+
+        <div data-theme="f" data-role="header" style="position:relative" >
+            <a href="#artist" data-role="button" data-transition="slide" data-direction="reverse" data-icon="back" data-theme="c" style="margin:20px">Back</a>
+            
+                <center><img style="width: 450px; height: 80px; padding: 5px" src="images/streetceol_logo.png" /></center>
+                
+                </div>
+
+   
+   <div style="width: 100px; height: 100px; position: relative; border: 1px solid #b8b8b8">
+                    <img src="images/daire.jpg" alt="image" style="position: absolute; width:100px; height:100px; margin-left:20px " />
+                    
+                    
+                    
+                    <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                    <li data-theme="c" style="margin-left:130px; width:150px; height:50px; margin-top:20px">
+                    <center><h1>Daire Graham</h1></center>
+                    </li>
+                    </ul>
+                    
+                </div>
+                <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                </ul>
+                <div data-role="collapsible-set" data-theme="c" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                        	Biography
+                        </h3>
+                         <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+							<span style="font-size:medium; font-family:'Arial'">Formely a member of "Julliets Rescue" Daire has now parted ways with the 5 piece band and has now 
+							started his own solo career. With such a unique and soothing voice Daire has just began writing songs for his solo career and is defiantly one to look out for.</span>            
+                    	 </li>
+						 </ul>
+                        </div>
+                  
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Links
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+                        
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="http://www.facebook.com/profile.php?id=100000504426379">Facebook</a></h2>
+                        	 
+                      
+                    		</li>
+						 </ul>
+                                  
+   				</div>
+   				<div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Video
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true" >
+                         <li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/Bk3fG28GwPc" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Celbridge based singer Daire Graham doing his cover of Chris Isaaks powerful track "Wicked Games" while adding his own twist
+                         to it. Dont forget to like, comment, subscribe and share at <a href="http://www.youtube.com/user/StreetCeolTV">Street Ceol TV Youtube Page</a></span> </div>
+                                              
+                    	</li>
+						 </ul>
+                                  
+   				</div>
+
+   
+   
+   </div>
+</div>
+
+
+<div data-role="page" id="illPsyhcz" data-theme="f"> <!--ill Psyhcz Profile Page -->
+        
+
+        <div data-theme="f" data-role="header" style="position:relative" >
+            <a href="#artist" data-role="button" data-transition="slide" data-direction="reverse" data-icon="back" data-theme="c" style="margin:20px">Back</a>
+            
+                <center><img style="width: 450px; height: 80px; padding: 5px" src="images/streetceol_logo.png" /></center>
+                
+                </div>
+
+   
+   <div style="width: 100px; height: 100px; position: relative; border: 1px solid #b8b8b8">
+                    <img src="images/Ill_Psychz.jpg" alt="image" style="position: absolute; width:100px; height:100px; margin-left:20px " />
+                    
+                    
+                    
+                    <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                    <li data-theme="c" style="margin-left:130px; width:150px; height:50px; margin-top:20px">
+                    <center><h1>iLL Psychz</h1></center>
+                    </li>
+                    </ul>
+                    
+                </div>
+                <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                </ul>
+                <div data-role="collapsible-set" data-theme="c" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                        	Biography
+                        </h3>
+                         <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+							<span style="font-size:medium; font-family:'Arial'">Basically started listening to rap music at the age of 10 whilst living in England, 
+							not because I wanted to but because my older brother did. Moved back home to Ireland when I was 12. At around 13 I started to take a keener interest in it 
+							and at 14 I began writing my own material just for fun. At 16 myself and a mate from my local town formed a group known as 'Double Dice' and we released a mixtape
+							 together. Performed at local talent shows and more until I was 19 and the group disbanded. 6 months after I got back into the booth with a re-newed passion to 
+							 create music that actually meant something to me or at least carried some substance. It's a style I've chosen to run with ever since. Released my first ever 
+							 solo project "Ill Psychz" in April 2011. After which I shot two videos to tracks off it. Revolutionary S.O.M and Armour. The mixtape and Revolutionary S.O.M 
+							 even got a very supporting review in Hot Press which was amazing. Recently shot a video to "Weetabix (Wake Up!)" which is a track off my upcoming "Fitting In
+							  Is Overrated" project and even got an article in Irelands very own Rap Ireland which really meant a lot to me. Plans are in place for one more video for 2011.
+							   I've saved the most ambitious till last in my opinion.</span>            
+                    	 </li>
+						 </ul>
+                        </div>
+                  
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Links
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+                        
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="http://www.facebook.com/IllPsychzMusic">Facebook</a></h2>
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="http://www.youtube.com/user/illPsychzOfficial">YouTube</a></h2>
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="http://www.soundcloud.com/ill-psychzhttp://soundcloud.com/ill-psychz">Sound Cloud</a></h2>
+
+                        	 
+                      
+                    		</li>
+						 </ul>
+                                  
+   				</div>
+   				<div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Video
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true" >
+                         <li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/g3oO9pjDcm8" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Galway based rapper Ill Psychz performing his own track titled "Weetabix (Wake Up!)". 
+                         Dont forget to like, comment, subscribe and share at <a href="http://www.youtube.com/user/StreetCeolTV">Street Ceol TV Youtube Page</a></span> </div>
+                                              
+                    	</li>
+						 </ul>
+                                  
+   				</div>
+
+   
+   
+   </div>
+</div>
+
+
+
+<div data-role="page" id="J.G" data-theme="f"> <!--J.G Profile Page -->
+        
+
+        <div data-theme="f" data-role="header" style="position:relative" >
+            <a href="#artist" data-role="button" data-transition="slide" data-direction="reverse" data-icon="back" data-theme="c" style="margin:20px">Back</a>
+            
+                <center><img style="width: 450px; height: 80px; padding: 5px" src="images/streetceol_logo.png" /></center>
+                
+                </div>
+
+   
+   <div style="width: 100px; height: 100px; position: relative; border: 1px solid #b8b8b8">
+                    <img src="images/J.G.jpg" alt="image" style="position: absolute; width:100px; height:100px; margin-left:20px " />
+                    
+                    
+                    
+                    <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                    <li data-theme="c" style="margin-left:130px; width:150px; height:50px; margin-top:20px">
+                    <center><h1>J.G</h1></center>
+                    </li>
+                    </ul>
+                    
+                </div>
+                <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                </ul>
+                <div data-role="collapsible-set" data-theme="c" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                        	Biography
+                        </h3>
+                         <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+							<span style="font-size:medium; font-family:'Arial'">Manchester born rapper J.G emmigrated to Ireland with his Irish father at the age of 15 and has not 
+							looked back since. Making a name for himself locally around Manchester, J.G has now started establishing his name around the west side of Dublin and is 
+							working with many Irish hip hop artists around the West side of Dublin.</span>            
+                    	 </li>
+						 </ul>
+                        </div>
+                  
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Links
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+                        
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="http://www.facebook.com/pages/JG">Facebook</a></h2>
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="http://www.reverbnation.com/joshg">Reverbnation</a></h2>
+                        
+
+                        	 
+                      
+                    		</li>
+						 </ul>
+                                  
+   				</div>
+   				<div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Video
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true" >
+                         <li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/asJ2CQ2GNSs" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Originally from Manchester, England, rapper J.G moved over to Dublin a year ago and has started rapping and 
+                         recording with many artists in Ireland. Performing his original track "Can't Let Go" acoustic version. Dont forget to like, comment, subscribe and share at
+                          <a href="http://www.youtube.com/user/StreetCeolTV">Street Ceol TV Youtube Page</a></span> </div>
+                                              
+                    	</li>
+						 </ul>
+                                  
+   				</div>
+
+   
+   
+   </div>
+</div>
+
+
+<div data-role="page" id="rob" data-theme="f"> <!--Rob Steenson Profile Page -->
+        
+
+        <div data-theme="f" data-role="header" style="position:relative" >
+            <a href="#artist" data-role="button" data-transition="slide" data-direction="reverse" data-icon="back" data-theme="c" style="margin:20px">Back</a>
+            
+                <center><img style="width: 450px; height: 80px; padding: 5px" src="images/streetceol_logo.png" /></center>
+                
+                </div>
+
+   
+   <div style="width: 100px; height: 100px; position: relative; border: 1px solid #b8b8b8">
+                    <img src="images/Rob_Steenson.jpg" alt="image" style="position: absolute; width:100px; height:100px; margin-left:20px " />
+                    
+                    
+                    
+                    <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                    <li data-theme="c" style="margin-left:130px; width:150px; height:50px; margin-top:20px">
+                    <center><h1>Rob Steenson</h1></center>
+                    </li>
+                    </ul>
+                    
+                </div>
+                <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                </ul>
+                <div data-role="collapsible-set" data-theme="c" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                        	Biography
+                        </h3>
+                         <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+							<span style="font-size:medium; font-family:'Arial'">Solo artist / battle rapper from Dublins north inner city. Released 3 mixtapes & battled in DFI and Don't Flop across the UK & 
+							Ireland</span>            
+                    	 </li>
+						 </ul>
+                        </div>
+                  
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Links
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+                        
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="http://www.facebook.com/robsteensonmusic/">Facebook</a></h2>
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="http://www.youtube.com/urmanrob">YouTube</a></h2>
+                        
+
+                        	 
+                      
+                    		</li>
+						 </ul>
+                                  
+   				</div>
+   				<div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Video
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true" >
+                         <li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/5Of9iP3Zjm4" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Inner Dublin City rapper Rob Steenson performing his original track "Faithless" with Joseph McGucken providing guitar.
+                          Dont forget to like, comment, subscribe and share at <a href="http://www.youtube.com/user/StreetCeolTV">Street Ceol TV Youtube Page</a></span> </div>
+                                              
+                    	</li>
+						 </ul>
+                                  
+   				</div>
+
+   
+   
+   </div>
+</div>
+
+
+<div data-role="page" id="thefibbs" data-theme="f"> <!--The Fibbs Profile Page -->
+        
+
+        <div data-theme="f" data-role="header" style="position:relative" >
+            <a href="#artist" data-role="button" data-transition="slide" data-direction="reverse" data-icon="back" data-theme="c" style="margin:20px">Back</a>
+            
+                <center><img style="width: 450px; height: 80px; padding: 5px" src="images/streetceol_logo.png" /></center>
+                
+                </div>
+
+   
+   <div style="width: 100px; height: 100px; position: relative; border: 1px solid #b8b8b8">
+                    <img src="images/TheFibbs.jpg" alt="image" style="position: absolute; width:100px; height:100px; margin-left:20px " />
+                    
+                    
+                    
+                    <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                    <li data-theme="c" style="margin-left:130px; width:150px; height:50px; margin-top:20px">
+                    <center><h1>The Fibbs</h1></center>
+                    </li>
+                    </ul>
+                    
+                </div>
+                <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                </ul>
+                <div data-role="collapsible-set" data-theme="c" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                        	Biography
+                        </h3>
+                         <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+							<span style="font-size:medium; font-family:'Arial'">The Fibbs are a Dublin based five piece band making waves with their new sound fusing blues, funk, rockâ€™nâ€™roll and hip hop. The band consists of Ben Whitaker as lead vocalist, St. John Simpson on the bass, Laurence Falconer on lead guitar, Jesse Heffernan on the drums while singing, along with Alex â€œPhatsâ€ Smyth the M.C. of the band bringing the hip hop influence. 
+							Elements of the band have been writing songs for years after all going to the same school together; however they initially joined up as a band after leaving school to play their first gig in 2008. 
+							After a year long hiatus the band reformed this year in a quest to continue on developing their truly unique sound. After time spent writing fresh material this summer they have re-entered the studio,and should soon emerge with the new EP entitled â€œRoom 6â€. In creating the EP each member of the band has brought something different to the table combining catchy hooks and guitar riffs, funky bass lines, and thoughtful lyrics with an overall vibe to make heads bop. 
+							The Fibbs are also becoming popular on the Dublin music scene for their brilliant live shows encompassing stage presence, crowd interaction and infectious grooves
+							</span>            
+                    	 </li>
+						 </ul>
+                        </div>
+                  
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Links
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+                        
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="www.thefibbs.com">Official Website</a></h2>
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="http://www.youtube.com/user/TheFibbsLive">YouTube</a></h2>
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="http://soundcloud.com/the-fibbs">Sound Cloud</a></h2>
+
+                        
+
+                        	 
+                   
+                    		</li>
+						 </ul>
+                                  
+   				</div>
+   				<div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Video
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true" >
+                         <li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/v6SPqa9LKu4" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Funk/Hip Hop/Blues group The Fibbs performing 2 of their tracks with the first one titled "Gone" and second track titled 
+                         "Late Night Feeling" exclusively on Street Ceol TV.                          
+                         Dont forget to like, comment, subscribe and share at <a href="http://www.youtube.com/user/StreetCeolTV">Street Ceol TV Youtube Page</a></span> </div>
+                                              
+                    	</li>
+						 </ul>
+                                  
+   				</div>
+
+   
+   
+   </div>
+</div>
+
+
+
+<div data-role="page" id="yellowbridge" data-theme="f"> <!--Yellowbridge Profile Page -->
+        
+
+        <div data-theme="f" data-role="header" style="position:relative" >
+            <a href="#artist" data-role="button" data-transition="slide" data-direction="reverse" data-icon="back" data-theme="c" style="margin:20px">Back</a>
+            
+                <center><img style="width: 450px; height: 80px; padding: 5px" src="images/streetceol_logo.png" /></center>
+                
+                </div>
+
+   
+   <div style="width: 100px; height: 100px; position: relative; border: 1px solid #b8b8b8">
+                    <img src="images/Yellowbridge.jpg" alt="image" style="position: absolute; width:100px; height:100px; margin-left:20px " />
+                    
+                    
+                    
+                    <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                    <li data-theme="c" style="margin-left:130px; width:150px; height:50px; margin-top:20px">
+                    <center><h1>Yellowbridge</h1></center>
+                    </li>
+                    </ul>
+                    
+                </div>
+                <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                </ul>
+                <div data-role="collapsible-set" data-theme="c" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                        	Biography
+                        </h3>
+                         <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+							<span style="font-size:medium; font-family:'Arial'">Yellowbridge are an indie/pop collaboration made up of Kyle Hyunsung Kim and Ciara Donnelly. 
+							The producer/ singer songwriter have been together for a mere few months yet have developed their own sound based on influences stemming from past industry experience.
+							 The group hope to bring together the unlikely pairing that is Yellowbridge and create an album that is versatile, surprising and as pleasant as the group themselves
+							 (they swear)!</span>            
+                    	 </li>
+						 </ul>
+                        </div>
+                  
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Links
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+                        
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="http://www.facebook.com/pages/Yellowbridge">Facebook</a></h2>
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="http://yellowbridgemusic.com">Official Website</a></h2>
+                        <h2 style="font-size:medium; font-family:'Arial'"><a href="https://twitter.com/hi_yellowbridge">Twitter</a></h2>
+
+                        
+
+                        	 
+                   
+                    		</li>
+						 </ul>
+                                  
+   				</div>
+   				<div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Video
+                        </h3>
+                       <ul data-role="listview" data-divider-theme="f" data-inset="true" >
+                         <li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/EBrXxI_3qno" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Dublin based indie duo YellowBridge performing their own original track titled "Circus".                          
+                         Dont forget to like, comment, subscribe and share at <a href="http://www.youtube.com/user/StreetCeolTV">Street Ceol TV Youtube Page</a></span> </div>
+                                              
+                    	</li>
+						 </ul>
+                                  
+   				</div>
+
+   
+   
+   </div>
+</div>
+
+
+
+       <div data-role="page" id="about" data-theme="f"> <!--About  Page -->
+        
+
+        <div data-theme="f" data-role="header" style="position:relative" >
+            <a href="#homepage" data-role="button" data-transition="slide" data-direction="reverse" data-icon="back" data-theme="c" style="margin:20px">Back</a>
+            
+                <center><img style="width: 450px; height: 80px; padding: 5px" src="images/streetceol_logo.png" /></center>
+                
+                </div>
+                <ul data-role="listview" data-divider-theme="f" data-inset="true">
+                         <li data-theme="c">
+                        
+                     	<h1>About Street Ceol Tv</h1>
+                     	<span>Street Ceol TV is a music channel distributed for all music lovers within the Republic of Ireland. From hip hop to rock to acoustic, there is no limitation in genre. 
+
+	Featuring the best of unsigned and raw artists in Ireland, and exclusively broadcasted online, Street Ceol TV is to showcase the most talented and exciting artists within Irish shores. 
+
+	Dont forget to subscribe to youtube channel to keep up to date with Irelands most exciting musical acts. </span>
+
+	<div data-theme="c">
+	<a href="http://www.youtube.com/user/StreetCeolTV"><img src="images/youtube.png" style="padding:20px"></a>
+	<a href="http://www.twitter.com/StreetCeolTV"><img src="images/twitter.png" style="padding:20px"></a>
+	<a href="http://www.facebook.com/StreetCeolTV"><img src="images/facebook.png" style="padding:20px"></a>
+	<a href="#"><img src="images/google.png" style="padding:20px"></a>
+
+	</div>
+
+	<h1>Contact Us:</h1>
+	To be featured or any enquiries to the videos within this channel, email your questions to streetceoltv@gmail.com or simply contact us on any social network sites listed above.				 
+                      
+                    		</li>
+						 </ul>
+
+                 
+</div><!--End of About page-->
+
+
+       <div data-role="page" id="videos" data-theme="f"> <!--Recorded Videos Page -->
+        
+
+        <div data-theme="f" data-role="header" style="position:relative" >
+            <a href="#homepage" data-role="button" data-transition="slide" data-direction="reverse" data-icon="back" data-theme="c" style="margin:20px">Back</a>
+            
+                <center><img style="width: 450px; height: 80px; padding: 5px" src="images/streetceol_logo.png" /></center>
+                
+                </div>
+                <ul data-role="listview" data-divider-theme="f" data-inset="true" >
+               <li data-theme="c">
+                <h1>Street Ceol TV Videos</h1>
+                       
+                    </li>
+
+                         <li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/1TAkaWp78sc?rel=0" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Dublin based guitarist Adam Behan plays his cover of Andy McKees famous piece 
+                         "Drifting". Dont forget to subscribe, like, comment and share to keep up to date with the latest musical talent exclusively at <a href="http://www.youtube.com/user/StreetCeolTV">Street Ceol TV Youtube Page</a></span> </div>
+                                              
+                    	</li>
+                    	<li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/mIS5S61KLnw" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Lucan based singer/songwriter Andy Duff singing his own original song titled "How Long". Dont forget to like, 
+                         comment, subscribe and share at <a href="http://www.youtube.com/user/StreetCeolTV">Street Ceol TV Youtube Page</a></span> </div>
+                                              
+                    	</li>
+                    	<li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/aE0IIZ3I8JU" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Clondalkin based hip hop group A.W.O.L (Rapthor and Row-B) performing their original song "New Age Funk". Dont forget to like, 
+                         comment, subscribe and share at <a href="http://www.youtube.com/user/StreetCeolTV">Street Ceol TV Youtube Page</a></span> </div>
+                                              
+                    	</li>
+                    	<li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/Bk3fG28GwPc" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Celbridge based singer Daire Graham doing his cover of Chris Isaaks powerful track "Wicked Games" while adding his own twist
+                         to it. Dont forget to like, comment, subscribe and share at <a href="http://www.youtube.com/user/StreetCeolTV">Street Ceol TV Youtube Page</a></span> </div>
+                                              
+                    	</li>
+                    	<li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/g3oO9pjDcm8" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Galway based rapper Ill Psychz performing his own track titled "Weetabix (Wake Up!)". 
+                         Dont forget to like, comment, subscribe and share at <a href="http://www.youtube.com/user/StreetCeolTV">Street Ceol TV Youtube Page</a></span> </div>
+                                              
+                    	</li>
+                    	<li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/asJ2CQ2GNSs" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Originally from Manchester, England, rapper J.G moved over to Dublin a year ago and has started rapping and 
+                         recording with many artists in Ireland. Performing his original track "Can't Let Go" acoustic version. Dont forget to like, comment, subscribe and share at
+                          <a href="http://www.youtube.com/user/StreetCeolTV">Street Ceol TV Youtube Page</a></span> </div>
+                                              
+                    	</li>
+                    	<li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/5Of9iP3Zjm4" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Inner Dublin City rapper Rob Steenson performing his original track "Faithless" with Joseph McGucken providing guitar.
+                          Dont forget to like, comment, subscribe and share at <a href="http://www.youtube.com/user/StreetCeolTV">Street Ceol TV Youtube Page</a></span> </div>
+                                              
+                    	</li>
+                    	<li data-theme="c" style="height:180px; ">
+                         <iframe style="float:left; padding:15px" width="200" height="150" src="http://www.youtube.com/embed/EBrXxI_3qno" frameborder="0" allowfullscreen="true"></iframe>
+                         <div style="height: 116px;margin-top:50px"><span>Dublin based indie duo YellowBridge performing their own original track titled "Circus".                          
+                         Dont forget to like, comment, subscribe and share at <a href="http://www.youtube.com/user/StreetCeolTV">Street Ceol TV Youtube Page</a></span> </div>
+                                              
+                    	</li>
+						 </ul>
+
+                 
+				</div>
+
+
+<div data-role="page" id="contact" data-theme="f"> <!--Contact  Page -->
+        
+
+        <div data-theme="f" data-role="header" style="position:relative" >
+            <a href="#homepage" data-role="button" data-transition="slide" data-direction="reverse" data-icon="back" data-theme="c" style="margin:20px">Back</a>
+            
+                <center><img style="width: 450px; height: 80px; padding: 5px" src="images/streetceol_logo.png" /></center>
+                
+                </div>
+                <ul data-role="listview" data-divider-theme="f" data-inset="true" >
+               <li data-theme="c">
+                <h1>Street Ceol TV Contact Details</h1>
+                                          						 </ul>
+
+                 
+				</div>
 
 	</body>
 </html>
